@@ -6,25 +6,14 @@
 
 def key_for_min_value(name_hash)
   return [] if name_hash.empty?
+  value_array = []
   
   name_hash.each do |key, value|
-    
-    
-    value <= value_array[0]
-    
+    value_array << value
+    if value <= value_array == TRUE
+      return key
+    end
+  
   end
   
-end
-
-
-
-
-counter = 0
- 
-loop do 
-  counter += 1
-  puts "Iteration #{counter} of the loop"
-  if counter >= 10 
-    break
-  end
 end
