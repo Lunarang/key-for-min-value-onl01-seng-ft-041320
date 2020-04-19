@@ -10,6 +10,9 @@ def key_for_min_value(name_hash)
   value_array = []
   name_hash.each do |key, value|
     value_array << value
+      
+      i = 0 
+      
       if value <= value_array[0] = TRUE
         return key
       end
