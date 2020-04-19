@@ -8,10 +8,10 @@ def key_for_min_value(name_hash)
   values = []
   name_hash.each { |key, value| values << value }
   
-  min_val = 
+  min_val = values.index[0]
  
   values.each do |item|
-  	if item < values[values.index(item)-1] && item < min_val
+  	if item <= values[values.index(item)-1] && item <= min_val
 		  min_val = item
     end
   end
