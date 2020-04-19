@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
   min_val = values[0]
  
   values.each do |item|
-  	if item <= values.index ([-1]) && item <= min_val
+  	if item <= values.index([-1]) && item <= min_val
 		  min_val = item
     end
   end
