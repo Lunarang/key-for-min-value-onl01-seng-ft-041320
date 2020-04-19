@@ -7,11 +7,11 @@
 def key_for_min_value(name_hash)
   values = []
   name_hash.each { |key, value| values << value }
+  
   min_val = 0 # def min value 
-ints = [1, 2, 3, 4, 5, 6] # the list of inputs
  
 # loop through each item in ints list
-for item in ints:
+  for item in values:
 	# if the current item is less than the item before it and it is less than our current min_val then we assign min_val to that item
 	if item < ints[ints.index(item)-1] and item < min_val:
 		min_val = item
