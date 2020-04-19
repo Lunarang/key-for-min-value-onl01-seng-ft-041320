@@ -14,9 +14,8 @@ def key_for_min_value(name_hash)
   	if item < values[values.index(item)-1] && item < min_val
 		  min_val = item
     end
-
-  
-  
   end
+  
+  name_hash.key(min_val) 
   
 end
